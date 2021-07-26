@@ -1,0 +1,29 @@
+server:
+  port: 8090
+
+
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+#    prefix: /templates/
+#    suffix: .html
+
+
+
+
+
+
+
+
+#spring:
+#  freemarker:
+#    prefix: classpath/templates/
+##    suffix: .ftl
+#
+  #  mvc:
+#spring:
+#    view:
+#
+#      suffix: .ftl
+#      prefix: classpath:/templates/

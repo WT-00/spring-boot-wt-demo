@@ -1,0 +1,42 @@
+server:
+  port: 8090
+
+#
+#jasypt:
+#  encryptor:
+#    password: 123456!@#
+#
+#user:
+#  username: ENC(xd5cE+ZakBR/IUYA2qQu3A==)
+#  password: ENC(WWR5pCid0AiBgbc1cHuicQ==)
+
+
+#建议使用清晰的结构
+food:
+  name: 北京烤鸭
+  price: 99.8
+  sauce:
+     - 甜甜酱
+     - 番茄酱
+     - 香辣酱
+# 还支持流式语法
+#food: {name: 烤鸭,price: 99.8}
+
+#
+#spring:
+#  profiles:
+#    active: prod
+#
+#
+#---
+##开发环境
+#spring:
+#  profiles: dev
+#server:
+#  port: 8080
+#---
+##生产环境
+#spring:
+#  profiles: prod
+#server:
+#  port: 8090

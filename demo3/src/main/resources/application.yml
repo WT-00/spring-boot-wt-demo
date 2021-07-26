@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+#spring:
+#  mvc:
+#    view:
+#      #文件位置 不能修改
+#      prefix: /templates/
+#      #文件后缀
+#      suffix: .ftl
+
+#spring:
+#  thymeleaf:
+#    prefix: classpath:/templates/thymeleaf/
+#    suffix: .html
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+#    prefix: classpath:/templates/thymeleaf/
+#    suffix: .html
+
+
+
+
