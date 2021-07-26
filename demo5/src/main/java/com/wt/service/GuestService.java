@@ -14,4 +14,8 @@ public interface GuestService {
     void add(Guest guest);
 
     void update(Guest guest);
+
+    Guest get(String name);
+
+    void delete(String name);
 }

@@ -20,31 +20,39 @@ public class GuestController {
 
 
     @RequestMapping("/guest/list")
-    public String list(Model model){
-        model.addAttribute("guestList",guestService.list());
+    public String list(Model model) {
+        model.addAttribute("guestList", guestService.list());
         return "list";
     }
 
 
     @RequestMapping("/guest/toAdd")
-    public String toAdd(){
+    public String toAdd() {
         return "add";
     }
 
     @RequestMapping("/guest/add")
-    public String add(Guest guest){
+    public String add(Guest guest) {
         guestService.add(guest);
         return "redirect:/guest/list";
     }
 
     @RequestMapping("/guest/toUpdate")
-    public String toUpdate(){
+    public String toUpdate(Model model, String name) {
+        Guest guest = guestService.get(name);
+        model.addAttribute("guest", guest);
         return "update";
     }
 
     @RequestMapping("/guest/update")
-    public String update(Guest guest){
-            guestService.update(guest);
+    public String update(Guest guest) {
+        guestService.update(guest);
+        return "redirect:/guest/list";
+    }
+
+    @RequestMapping("/guest/delete")
+    public String delete(String name) {
+        guestService.delete(name);
         return "redirect:/guest/list";
     }
 
