@@ -1,0 +1,9 @@
+
+server:
+  port: 8090
+
+# \u901A\u8FC7\u914D\u7F6E\u52A0\u8F7D\u76D1\u542C\u5668
+context:
+  listener:
+    classes: com.wt.demo.listener.CustomListener4
+

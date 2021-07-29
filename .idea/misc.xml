@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/demo4/pom.xml" />
         <option value="$PROJECT_DIR$/demo5/pom.xml" />
         <option value="$PROJECT_DIR$/demo6/pom.xml" />
+        <option value="$PROJECT_DIR$/demo7/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eventListener/pom.xml" />
       </list>
     </option>
   </component>
