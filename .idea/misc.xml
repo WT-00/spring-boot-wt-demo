@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/demo6/pom.xml" />
         <option value="$PROJECT_DIR$/demo7/pom.xml" />
         <option value="$PROJECT_DIR$/demo-eventListener/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-web-container/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-servlet-filter/pom.xml" />
       </list>
     </option>
   </component>
