@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface GuestService {
 
-    List<Guest> getGuest();
+    List<Guest> getAllGuest();
 }

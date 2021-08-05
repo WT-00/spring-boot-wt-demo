@@ -12,6 +12,7 @@ import java.util.List;
 
 public interface GuestMapper {
 
-    @Select("select * from guest")
-    List<Guest> getGuest();
+//    @Select("select * from guest")
+    List<Guest> getAllGuest();
+
 }

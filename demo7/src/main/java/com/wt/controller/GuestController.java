@@ -22,7 +22,7 @@ public class GuestController {
 
     @GetMapping
     public String list(Model model) {
-        model.addAttribute("guestList", guestService.getGuest());
+        model.addAttribute("guestList", guestService.getAllGuest());
         return "list";
     }
 

@@ -13,7 +13,7 @@ public class GuestServiceImpl  implements GuestService{
     @Autowired
     private GuestMapper guestMapper;
     @Override
-    public List<Guest> getGuest() {
-        return guestMapper.getGuest();
+    public List<Guest> getAllGuest() {
+        return guestMapper.getAllGuest();
     }
 }

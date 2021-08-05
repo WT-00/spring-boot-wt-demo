@@ -5,16 +5,10 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- *
- */
+
 @Configuration
 public class FilterConfig {
 
-    /**
-     *
-     * @return
-     */
     @Bean
     public FilterRegistrationBean<CustomFilter> filterRegistrationBean(){
 
@@ -26,9 +20,5 @@ public class FilterConfig {
 //        filterFilterRegistrationBean.setOrder(0); //决定注册的优先级
 
         return filterFilterRegistrationBean;
-
-
     }
-
-
 }

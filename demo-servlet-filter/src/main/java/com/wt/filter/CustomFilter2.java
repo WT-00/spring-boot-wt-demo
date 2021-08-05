@@ -2,7 +2,6 @@ package com.wt.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
-import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
 /**
@@ -10,7 +9,6 @@ import java.io.IOException;
  * 实现一个Filter接口
  * 在类上增加一个@WebFilter注解
  * 再入口类加上 @ServletComponentScan
- *
  */
 @WebFilter(filterName="customFilter2",urlPatterns = "/*")
 public class CustomFilter2 implements Filter {
